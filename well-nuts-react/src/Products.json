@@ -1,0 +1,25 @@
+
+[
+        {"name":"Product1",
+        "description":"Product 1 description",
+        "img":"../public/products/product1.jpg",
+        "ingredients":
+            [
+            {"name":"Almonds", "weight":"10g","calories":"150J"},
+            {"name":"Peanuts", "weight":"20g","calories":"150J"},
+            {"name":"Pistachios", "weight":"30g","calories":"150J"},
+            {"name":"Walnuts", "weight":"40g","calories":"150J"}]},
+
+            {"name":"Product2",
+            "description":"Product 2 description",
+            "img":"../public/products/product2.jpg",
+            "ingredients":
+                [
+                    {"name":"Almonds", "weight":"10g","calories":"150J"},
+                {"name":"Peanuts", "weight":"20g","calories":"150J"},
+                {"name":"Pistachios", "weight":"30g","calories":"150J"},
+                {"name":"Walnuts", "weight":"40g","calories":"150J"}]}
+                ]
+            
+    
+
