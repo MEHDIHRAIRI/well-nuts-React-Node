@@ -13,10 +13,8 @@ const getProduct = async (req, res) => {
 
 const createProduct = async (req, res) => {
   var newProduct = new Product();
-  newProduct.name = req.body.name;
-  newProduct.description = req.body.description;
   newProduct.experationDate = req.body.experationDate;
-  newProduct.ingredients = req.body.ingredients;
+  newProduct.category = req.body.category;
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
     return res.status(400).json({ errors: errors.array() });

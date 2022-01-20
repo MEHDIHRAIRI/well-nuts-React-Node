@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const CategorieSchema = new Schema({
+const CategorySchema = new Schema({
   name: { type: String },
   description: { type: String },
+  weight: { type: String },
+  calories: { type: String },
   ingredients: [
     {
       name: { type: String },
@@ -13,4 +15,4 @@ const CategorieSchema = new Schema({
   ],
 });
 
-module.exports = mongoose.model("categorie", CategorieSchema);
+module.exports = mongoose.model("category", CategorySchema);
